@@ -23,7 +23,7 @@ public class Main {
     System.out.println();
 
     // Test search
-    StudentLinkedList.Student s = list.search("12346");
+    StudentLinkedList.Student s = list.search("243107040030");
     if (s != null) {
       System.out.println("Ditemukan: NIM: " + s.nim + ", Nama: " + s.name + ", IPK: " + s.gpa);
     } else {
